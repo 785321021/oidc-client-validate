@@ -11,7 +11,7 @@
 
 import os
 import json
-import tools
+from flask_oidc_validate import tools
 import urllib
 
 class Config():

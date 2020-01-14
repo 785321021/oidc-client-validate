@@ -15,8 +15,8 @@ import time
 from jwkest import BadSignature
 from jwkest.jwk import KEYS
 from jwkest.jws import JWS
-from tools import base64_urldecode
-from tools import get_ssl_context
+from flask_oidc_validate.tools import base64_urldecode
+from flask_oidc_validate.tools import get_ssl_context
 from functools import wraps
 from flask import request, jsonify
 

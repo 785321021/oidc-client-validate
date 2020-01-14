@@ -16,6 +16,8 @@ python项目作为Resource或者Client通过接口或其他方式被调用，获
 app.py：为测试项目启动文件    
 IdTokenValidatorForRs.py：Resource端认证代码  
 IdTokenValidatorForClient.py：Client端认证代码    
-settings.json：配置文件  
+settings.json：配置文件 
+
+在您具体项目中，您可以用 pip install flask-oidc-validate 来安装这个依赖直接使用
 
 
