@@ -15,10 +15,10 @@ setup(
 
     description='A flask-oidc to validate IdToken for python ',
 
-    author='lixin159',      # 替换为你的Pypi官网账户名
-    author_email='785321021@qq.com',  # 替换为你Pypi账户名绑定的邮箱
+    author='lixin159',
+    author_email='785321021@qq.com', 
 
-    url='http://gitlab.it.taikang.com/iaa/oidc-client-python.git',
+    url='https://github.com/785321021/oidc-client-validate.git',
 
     long_description=open('README.md', encoding='utf-8').read(),
 
