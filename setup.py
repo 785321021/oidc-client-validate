@@ -16,7 +16,7 @@ setup(
     description='A flask-oidc to validate IdToken for python ',
 
     author='lixin159',
-    author_email='785321021@qq.com', 
+    author_email='785321021@qq.com',
 
     url='https://github.com/785321021/oidc-client-validate.git',
 
