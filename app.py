@@ -4,11 +4,11 @@ from flask import Flask
 
 app = Flask(__name__)
 
-from flask_oidc_validate.OidcConfig import Config
+from flask_oidc_validator.OidcConfig import Config
 config = Config('settings.json').load_config()
 # config = config.load_config()
 
-from flask_oidc_validate.IdTokenValidatorForRs import IdTokenValidatorForRs
+from flask_oidc_validator.IdTokenValidatorForRs import IdTokenValidatorForRs
 
 # '''接口上加装饰器'''
 # token_validator = IdTokenValidatorForRs(config)
